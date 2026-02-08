@@ -67,7 +67,7 @@ yesBtn.addEventListener("click", () => {
   }, 500);
 });
 
-// Floating hearts
+// Floating hearts (FIXED)
 setInterval(() => {
   const heart = document.createElement("div");
   heart.innerHTML = "💖";
@@ -76,6 +76,7 @@ setInterval(() => {
   heart.style.bottom = "-20px";
   heart.style.fontSize = "24px";
   heart.style.animation = "floatUp 5s linear";
+  heart.style.pointerEvents = "none"; // ⭐ CRITICAL FIX ⭐
   document.body.appendChild(heart);
 
   setTimeout(() => heart.remove(), 5000);

@@ -72,7 +72,7 @@
   .final {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(135deg, #0f3460, #16213e, #1a1a2e);
     display: flex;
     flex-direction: column;
     justify-content: center;
