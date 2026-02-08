@@ -61,7 +61,6 @@ yesBtn.addEventListener("click", () => {
       <div class="final">
         <h1>YAYYYY 💖🥰</h1>
         <p>You just made me the happiest person alive.</p>
-        <p>Happy Valentine’s Day ❤️</p>
       </div>
     `;
   }, 500);
