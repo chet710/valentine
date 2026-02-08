@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .buttons {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  #yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+  }
+  
+  #noBtn {
+    position: absolute;
+    background-color: #444;
+    color: white;
+  }
+  
